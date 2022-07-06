@@ -1,6 +1,9 @@
 package org.launchcode.techjobs.persistent.models;
 
-import javax.persistence.*;
+import java.util.Objects;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 public class Job{
