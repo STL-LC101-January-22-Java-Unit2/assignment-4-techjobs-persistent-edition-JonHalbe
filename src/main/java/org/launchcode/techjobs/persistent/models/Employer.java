@@ -10,14 +10,15 @@ public class Employer extends AbstractEntity {
         @NotBlank(message = "Location is required")
         private String location;
 
-        public Employer (){
-        }
+        public Employer (){};
+
+        public Employer(String location) {this.location=location;}
 
     public String getLocation() {
         return location;
     }
-
     public void setLocation(String location) {
-        this.location = location;
+            this.location = location;
     }
 }
+
