@@ -1,8 +1,6 @@
 package org.launchcode.techjobs.persistent.models;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
+import javax.persistence.*;
 import javax.validation.constraints.Size;
 import javax.validation.constraints.NotBlank;
 import java.util.Objects;
